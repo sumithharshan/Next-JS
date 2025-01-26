@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -201,8 +202,10 @@ const Hero = () => {
                 data-wow-delay=".25s"
               >
                 <div className="mt-16">
-                  <img
-                    src="assets/images/hero/hero-image.jpg"
+                  <Image
+                    width={1200}
+                    height={450}
+                    src="/assets/images/hero/hero-image.jpg"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                   />

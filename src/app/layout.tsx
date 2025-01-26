@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import Script from "next/script";
 import "./globals.css";
-import styles from "../app/components/v2tailwind.module.css";
+/* import styles from "../app/components/v2tailwind.module.css"; */
 
 const interSans = Inter({
   variable: "--font-inter-sans",

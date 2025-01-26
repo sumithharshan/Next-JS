@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const HeaderNav = () => {
   return (
@@ -8,7 +9,9 @@ const HeaderNav = () => {
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4">
               <a href="index.html" className="navbar-logo block w-full py-5">
-                <img
+                <Image
+                  width={150}
+                  height={40}
                   src="assets/images/logo/logo-white.svg"
                   alt="logo"
                   className="header-logo w-full"
